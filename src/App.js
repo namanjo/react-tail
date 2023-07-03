@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Analytics from "./components/Analytics";
+
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <Analytics />
     </div>
   );
 }
